@@ -10,7 +10,7 @@ from weather import inline_menu
 import requests
 from bs4 import BeautifulSoup as BS
 
-TOKEN = "7083075969:AAGXj8oUQ_PVxwONVZ47chbiA4xlg-bYtgE" #Token kiriting
+TOKEN = "" #Token kiriting
 dp = Dispatcher()
 
 @dp.message(CommandStart())
